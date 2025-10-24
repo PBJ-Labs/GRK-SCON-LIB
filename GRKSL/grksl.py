@@ -44,6 +44,7 @@ GRKSL_BSP = 0x026
 GRKSL_LIGHT = 0x027
 GRKSL_FULL_LIGHT = 0x028
 GRKSL_FAKE_LIGHT = 0x029
+GRKSL_AABB = 0x030
 
 def grkslRender(grksltype):
   any()

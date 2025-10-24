@@ -7,6 +7,13 @@
 grksltype = int
 ##################
 
+######################
+# grk math elements
+######################
+
+
+
+###########################################
 GRKSL_LINE = 0x000
 GRKSL_PLANE = 0x001
 GRKSL_FACE = 0x002
@@ -33,6 +40,10 @@ GRKSL_DEPTH = 0x022
 GRKSL_QUAD = 0x023
 GRKSL_PIXEL = 0x024
 GRKSL_BIT = 0x025
+GRKSL_BSP = 0x026
+GRKSL_LIGHT = 0x027
+GRKSL_FULL_LIGHT = 0x028
+GRKSL_FAKE_LIGHT = 0x029
 
 def grkslRender(grksltype):
   any()

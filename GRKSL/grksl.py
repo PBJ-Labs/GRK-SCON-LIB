@@ -11,7 +11,7 @@ grksltype = int
 # grk math elements
 ######################
 
-
+GrkSlVector3 = [0.0, 0.0, 0.0]
 
 ###########################################
 GRKSL_LINE = 0x000

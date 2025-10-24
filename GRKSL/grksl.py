@@ -51,6 +51,13 @@ GRKSL_TRANSPARENT = 0x033
 GRKSL_SHADER = 0x034
 GRKSL_SELECT = 0x035
 
+class GrkSlWidget():
+  x = int
+  y = int
+  w = int
+  h = int
+  
+
 def grkslRender(grksltype):
   any()
 
